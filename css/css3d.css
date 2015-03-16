@@ -1,0 +1,70 @@
+body,
+html {
+height: 100%;
+margin: 0;
+overflow: hidden
+}
+body {
+background: #111;
+font: 90%/1.2 Arial
+}
+.container {
+transition: .5s;
+height: 100%
+}
+.viewport {
+position: relative;
+overflow: hidden;
+width: 100%;
+height: 100%;
+background: #838FA4; 
+}
+
+.hide {
+opacity: 0
+}
+.space3d{
+position: absolute; 
+left: 50%; 
+top: 50%; 
+}
+.object3d {
+position: absolute; 
+left: 50%; 
+top: 50%; 
+}
+.plane{
+background: #82B3D0;
+width: 500px; 
+height: 500px; 
+margin-left: -250px; 
+margin-top: -250px; 
+background-blend-mode: multiply; 
+position: absolute; 
+left: 50%; 
+top: 50%;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
